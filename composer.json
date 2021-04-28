@@ -1,0 +1,23 @@
+{
+    "name": "kapitanluffy/async-redis",
+    "description": "Asynchronous Redis",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kapitanluffy",
+            "email": "kapitanluffy@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "clue/redis-react": "^2.4"
+    }.
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Kapitanluffy\\AsyncRedis\\": "src/"
+        }
+    },
+    "require": {}
+}
